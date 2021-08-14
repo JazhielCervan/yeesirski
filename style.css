@@ -1,0 +1,56 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+/*CLASES*/
+.titulo{
+    background-color: rgb(21, 223, 105);
+    padding: 1%;
+    overflow: hidden;
+
+}
+.folio{
+    margin-left: 6%;
+    float: left;
+}
+.cuerpo{
+    background-image: url(visual-studio-code.png);
+    height: 75vh;
+    background-repeat: none;
+    background-size: cover;
+    background-position: 99% 23%;
+}
+.menu li{
+    display: inline;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.menu li:hover{
+    text-decoration: underline;
+    font-size: 115%;
+}
+.menu{
+    width: 30%;
+    float: right;
+    margin-right: 6%;
+}
+.pie{
+    text-align: center;
+    height: 5vh;
+}
+.texto{
+    font-size: 7vh ;
+    text-align: center;
+    padding: 15%;
+}
+.ojo{
+    color: red;
+}
